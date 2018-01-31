@@ -9,7 +9,11 @@
 import UIKit
 import Lottie
 class ViewController: UIViewController {
-
+    var name: String = ""
+    @IBOutlet weak var textName: UITextView!
+    @IBAction func buttonClick(_ sender: Any) {
+        name = textName.text!
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
