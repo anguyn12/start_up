@@ -6,6 +6,6 @@ def create_app(cfg=None, cors=False):
         CORS(app)
 
     from api.user import api_user
-    app.register_blueprint(api_user, url_prefix = '/')
+    app.register_blueprint(api_user, url_prefix = '/api')
 
     return app
