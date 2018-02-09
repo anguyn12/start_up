@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A01E92202D03CC005B4E6D /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A01E91202D03CC005B4E6D /* FriendListView.swift */; };
+		00A01E94202D1469005B4E6D /* ContactPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A01E93202D1469005B4E6D /* ContactPerson.swift */; };
+		00A01E96202D1677005B4E6D /* ContactPersonDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A01E95202D1677005B4E6D /* ContactPersonDataSource.swift */; };
+		00A01E98202D2364005B4E6D /* contactStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A01E97202D2364005B4E6D /* contactStruct.swift */; };
 		00DF6E1120211FE200376F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF6E1020211FE200376F90 /* AppDelegate.swift */; };
 		00DF6E1320211FE200376F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF6E1220211FE200376F90 /* ViewController.swift */; };
 		00DF6E1620211FE200376F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DF6E1420211FE200376F90 /* Main.storyboard */; };
@@ -18,6 +22,10 @@
 /* Begin PBXFileReference section */
 		005BC7D22021302300F24927 /* pinjump.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pinjump.json; sourceTree = "<group>"; };
 		005BC7D32021302500F24927 /* hamburger.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hamburger.json; sourceTree = "<group>"; };
+		00A01E91202D03CC005B4E6D /* FriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendListView.swift; path = /Users/dawndawn/Documents/GitHub/start_up/EggApp/EggApp/FriendListView.swift; sourceTree = "<absolute>"; };
+		00A01E93202D1469005B4E6D /* ContactPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactPerson.swift; path = EggApp/ContactPerson.swift; sourceTree = SOURCE_ROOT; };
+		00A01E95202D1677005B4E6D /* ContactPersonDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactPersonDataSource.swift; path = EggApp/ContactPersonDataSource.swift; sourceTree = SOURCE_ROOT; };
+		00A01E97202D2364005B4E6D /* contactStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactStruct.swift; sourceTree = "<group>"; };
 		00DF6E0D20211FE200376F90 /* EggApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DF6E1020211FE200376F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00DF6E1220211FE200376F90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,10 +83,14 @@
 				005BC7D12021301100F24927 /* Animation */,
 				00DF6E1020211FE200376F90 /* AppDelegate.swift */,
 				00DF6E1220211FE200376F90 /* ViewController.swift */,
+				00A01E91202D03CC005B4E6D /* FriendListView.swift */,
+				00A01E93202D1469005B4E6D /* ContactPerson.swift */,
+				00A01E95202D1677005B4E6D /* ContactPersonDataSource.swift */,
 				00DF6E1420211FE200376F90 /* Main.storyboard */,
 				00DF6E1720211FE200376F90 /* Assets.xcassets */,
 				00DF6E1920211FE200376F90 /* LaunchScreen.storyboard */,
 				00DF6E1C20211FE200376F90 /* Info.plist */,
+				00A01E97202D2364005B4E6D /* contactStruct.swift */,
 			);
 			path = EggApp;
 			sourceTree = "<group>";
@@ -230,7 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				00DF6E1320211FE200376F90 /* ViewController.swift in Sources */,
+				00A01E94202D1469005B4E6D /* ContactPerson.swift in Sources */,
+				00A01E96202D1677005B4E6D /* ContactPersonDataSource.swift in Sources */,
 				00DF6E1120211FE200376F90 /* AppDelegate.swift in Sources */,
+				00A01E92202D03CC005B4E6D /* FriendListView.swift in Sources */,
+				00A01E98202D2364005B4E6D /* contactStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

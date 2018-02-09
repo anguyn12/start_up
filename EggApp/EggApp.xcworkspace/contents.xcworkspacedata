@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/dawndawn/Documents/GitHub/start_up/EggApp/EggApp/FriendListView.swift">
+   </FileRef>
+   <FileRef
       location = "group:EggApp.xcodeproj">
    </FileRef>
    <FileRef
